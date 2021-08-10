@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Caravan</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -90,7 +91,7 @@
 
 
 
-      <div class="col-lg-5 p-4">
+      <div class="col-lg-5 p-4 align-self-center">
         <h1 class="display-4">Realize a viagem do seu sonho</h1>
         <p class="lead">O melhor local para viajar é com a Caravan, mais de 5.000 excursões concuídas.</p>
         <form action="">
@@ -104,6 +105,176 @@
       </div>
     </div>
   </section>
+
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <div class="my-5">
+        <span class="h6">TUDO DE MELHOR PARA VOCÊ</span>
+        <h2 class="display-4">Aproveite as vantagens</h2>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="d-flex justify-content-center">
+            <img class="icone" src="/img/icones/passaporte.svg" alt="Passaporte">
+          </div>
+          <h3>Documentos</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, dolor asperiores.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="d-flex justify-content-center">
+            <img class="icone" src="/img/icones/passagens.svg" alt="Passagens">
+          </div>
+          <h3>Passagens</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, dolor asperiores.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="d-flex justify-content-center">
+            <img class="icone"src="/img/icones/translado.svg" alt="Translado">
+          </div>
+          <h3>Translado</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, dolor asperiores.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="d-flex justify-content-center">
+            <img class="icone" src="/img/icones/praias.svg" alt="Praias">
+          </div>
+          <h3>Praias</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, dolor asperiores.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="d-flex justify-content-center">
+            <img class="icone" src="/img/icones/bagagens.svg" alt="Bagagens">
+          </div>
+          <h3>Bagagens</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, dolor asperiores.</p>
+        </div>
+
+        <div class="col-xl-4 col-md-6">
+          <div class="d-flex justify-content-center">
+            <img class="icone"src="/img/icones/turismo.svg" alt="Turismo">
+          </div>
+          <h3>Turismo</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, dolor asperiores.</p>
+        </div>
+      </div>
+      <a href="planos.html"class="btn btn-primary btn-lg mt-4">Comprar plano</a>
+    </div>
+  </section>
+
+  <section id="home-quote" class="p-md-5">
+    <blockquote class="blockquote text-center text-white p-md-5 p-3">
+      <p class="display-4"><em>
+        "A felicidade não está na estrada que leva a algum lugar. A felicidade é a própria estrada."
+      </em></p>
+      <footer class="blockquote-footer text-white">
+        Bob Dylan
+      </footer>
+    </blockquote>
+  </section>
+
+  <section class="container">
+    <div class="my-5 text-center">
+      <span class="h6">AINDA ESTÁ COM DÚVIDAS?</span>
+      <h2 class="display-4">Perguntas frequentes</h2>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta">
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta1" aria-controls="pergunta1">➜ É possível cancelar a viagem?</a>
+          <div id="pergunta1" class="collapse show" data-parent="#perguntasFrequentes" role="tabpanel" aria-labelledby="pergunta1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod nostrum libero numquam, nihil, perferendis blanditiis, pariatur minus consectetur quaerat voluptas debitis asperiores distinctio molestias id corporis sunt voluptates reiciendis.</p>
+          </div>
+        </div>
+
+        <hr class="dropdown-divider">
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta2" aria-controls="pergunta2">➜ Qual é a garantia que tenho se perder o voo?</a>
+          <div id="pergunta2" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel" aria-labelledby="pergunta2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod nostrum libero numquam, nihil, perferendis blanditiis, pariatur minus consectetur quaerat voluptas debitis asperiores distinctio molestias id corporis sunt voluptates reiciendis.</p>
+          </div>
+        </div>
+
+        <hr class="dropdown-divider">
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta3" aria-controls="pergunta3">➜ Qual é a principal forma de viagem?</a>
+          <div id="pergunta3" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel" aria-labelledby="pergunta3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod nostrum libero numquam, nihil, perferendis blanditiis, pariatur minus consectetur quaerat voluptas debitis asperiores distinctio molestias id corporis sunt voluptates reiciendis.</p>
+          </div>
+        </div>
+
+        <hr class="dropdown-divider">
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta4" aria-controls="pergunta4">➜ Qual é omelhor destino de viagem?</a>
+          <div id="pergunta4" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel" aria-labelledby="pergunta4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod nostrum libero numquam, nihil, perferendis blanditiis, pariatur minus consectetur quaerat voluptas debitis asperiores distinctio molestias id corporis sunt voluptates reiciendis.</p>
+          </div>
+        </div>
+
+        <hr class="dropdown-divider">
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta5" aria-controls="pergunta5">➜ Vocês dão desconto para grupos grandes?</a>
+          <div id="pergunta5" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel" aria-labelledby="pergunta5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quod nostrum libero numquam, nihil, perferendis blanditiis, pariatur minus consectetur quaerat voluptas debitis asperiores distinctio molestias id corporis sunt voluptates reiciendis.</p>
+          </div>
+        </div>
+        <hr class="dropdown-divider">
+      </div>
+    </div>
+    <div class="text-center my-4">
+      <p class="small m-1">FALE CONOSCO PARA MAIS DÚVIDAS</p>
+      <a class="btn btn-primary btn-lg" href="contato.html">Entre em Contato</a>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <h4 class="h6">Páginas</h4>
+          <ul class="list-unstyled">
+            <li><a href="planos.html">Planos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="inscricao.html">Inscreva-se</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <h4 class="h6">Locais</h4>
+          <ul class="list-unstyled">
+            <li><a href="local.html">California</a></li>
+            <li><a href="local.html">Paris</a></li>
+            <li><a href="local.html">Dublin</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h4 class="h6">DADOS DE CONTATO</h4>
+          <ul class="list-unstyled text-secondary">
+            <li>caravan@caravan.com.br</li>
+            <li>21 99999-9999</li>
+            <li>De Seg. à Sex. das 8h às 18h</li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h4 class="h6">REDES SOCIAIS</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="btn btn-sm btn-outline-secondary d-block mb-2" style="max-width: 140px">Facebook</a></li>
+            <li><a href="#" class="btn btn-sm btn-outline-secondary d-block mb-2" style="max-width: 140px">Twitter</a></li>
+            <li><a href="#" class="btn btn-sm btn-outline-secondary d-block mb-2" style="max-width: 140px">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bg-primary text-center py-3">
+      <p class="mb-0">Caravan © 2021. Alguns direitos reservados.</p>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
