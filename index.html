@@ -10,6 +10,33 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLoginLabel">Entre na sua conta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="col-form-label">Senha</label>
+              <input type="password" class="form-control" id="password"></input>
+              <div class="form-text">Esqueceu a senha? <a href="#">Clique aqui.</a></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar na Conta</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fecha Modal -->
   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
@@ -39,7 +66,13 @@
             <a class="nav-link" href="contato.html">Contato</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
+            <a
+              class="nav-link"
+              href="#"
+              data-bs-toggle="modal" data-bs-target="#modalLogin" data-bs-whatever="@mdo"
+            >
+              Login
+            </a>
           </li>
           <li class="nav-item">
             <a class="btn btn-outline-primary ms-md-2" href="inscricao.html">Inscreva-se</a>
