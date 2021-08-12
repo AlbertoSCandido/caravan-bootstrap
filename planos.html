@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caravan - Local</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLoginLabel">Entre na sua conta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="col-form-label">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="col-form-label">Senha</label>
+              <input type="password" class="form-control" id="password"></input>
+              <div class="form-text">Esqueceu a senha? <a href="#">Clique aqui.</a></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar na Conta</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fecha Modal -->
+
+
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/caravan.svg" alt="Caravan" />
+      </a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Destinos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="local.html">California</a></li>
+              <li><a class="dropdown-item" href="local.html">Paris</a></li>
+              <li><a class="dropdown-item" href="local.html">Dublin</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="planos.html">Planos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#"
+              data-bs-toggle="modal" data-bs-target="#modalLogin" data-bs-whatever="@mdo"
+            >
+              Login
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-primary ms-md-2" href="inscricao.html">Inscreva-se</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <div class="text-center my-5">
+      <span class="h6">SEU PLANO, SUA VIAGEM</span>
+      <h1 class="display-4 text-primary">Escolha o Plano</h1>
+    </div>
+    <div class="row">
+      <div class="col-md mb-5">
+        <div class="bg-light rounded p-4 box-shadow">
+          <h2>Gold</h2>
+          <ul class="lista-plano list-unstyled">
+            <li>➜30 dias de viagem</li>
+            <li>➜3 destinos diferentes</li>
+            <li>➜Tudo pago pela empresa</li>
+            <li>➜Ingressos para festas</li>
+          </ul>
+          <form>
+            <select class="form-select bg-light" aria-label="Default select example">
+              <option selected>Selecione a cidade</option>
+              <option value="1">California</option>
+              <option value="2">Dublin</option>
+              <option value="3">Paris</option>
+            </select>
+          </form>
+          <div class="row mt-4 align-items-center">
+            <div class="col">
+              <a href="inscricao.html"class="btn btn-primary btn-lg d-block">Comprar Plano</a>
+            </div>
+            <div class="col">
+              <span class="h4">R$5.000,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md mb-5">
+        <div class="bg-light rounded p-4 box-shadow">
+          <h2>Platinum <span class="badge bg-success">Novo</span></h2>
+          <ul class="lista-plano list-unstyled">
+            <li>➜66 dias de viagem</li>
+            <li>➜6 destinos diferentes</li>
+            <li>➜Tudo pago pela empresa</li>
+            <li>➜Ingressos para festas</li>
+          </ul>
+          <form>
+            <select class="form-select bg-light" aria-label="Default select example">
+              <option selected>Selecione a cidade</option>
+              <option value="1">California</option>
+              <option value="2">Dublin</option>
+              <option value="3">Paris</option>
+            </select>
+          </form>
+          <div class="row mt-4 align-items-center">
+            <div class="col">
+              <a href="inscricao.html"class="btn btn-primary btn-lg d-block">Comprar Plano</a>
+            </div>
+            <div class="col">
+              <span class="h4">R$7.500,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- <div class="col">
+        <div class="bg-light rounded p-4 box-shadow">
+          <h2>Platinum <span class="badge bg-success">Novo</span></h2>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+    
+  <!-- Footer  -->
+  <footer class="bg-dark text-white mt-5 fixed-bottom">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <h4 class="h6">Páginas</h4>
+          <ul class="list-unstyled">
+            <li><a href="planos.html">Planos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="inscricao.html">Inscreva-se</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-6">
+          <h4 class="h6">Locais</h4>
+          <ul class="list-unstyled">
+            <li><a href="local.html">California</a></li>
+            <li><a href="local.html">Paris</a></li>
+            <li><a href="local.html">Dublin</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h4 class="h6">DADOS DE CONTATO</h4>
+          <ul class="list-unstyled text-secondary">
+            <li>caravan@caravan.com.br</li>
+            <li>21 99999-9999</li>
+            <li>De Seg. à Sex. das 8h às 18h</li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h4 class="h6">REDES SOCIAIS</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="btn btn-sm btn-outline-secondary d-block mb-2" style="max-width: 140px">Facebook</a></li>
+            <li><a href="#" class="btn btn-sm btn-outline-secondary d-block mb-2" style="max-width: 140px">Twitter</a></li>
+            <li><a href="#" class="btn btn-sm btn-outline-secondary d-block mb-2" style="max-width: 140px">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bg-primary text-center py-3">
+      <p class="mb-0">Caravan © 2021. Alguns direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
