@@ -1,6 +1,9 @@
 body {
   padding-top: 75px;
+  margin: 0;
+  padding-bottom: 0;
   min-height: 100vh;
+  font-size: 1.25rem;
 }
 
 .box-shadow {
@@ -24,6 +27,14 @@ body {
 .lista-plano li {
   padding: 1rem;
   font-size: 1.5rem;
+}
+
+.footer-page {
+  margin-top: 150px !important;
+}
+
+a {
+text-decoration: none;
 }
 
 @media (max-width: 767px) {
